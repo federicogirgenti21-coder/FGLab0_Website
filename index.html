@@ -113,7 +113,7 @@
         .video-banner {
             display: block; width: 100%; max-width: 720px; aspect-ratio: 16/9; background: #111; border-radius: 6px; overflow: hidden;
             border: 2px solid rgba(255, 183, 3, 0.3); text-decoration: none; position: relative; transition: 0.3s;
-            box-shadow: 0 0 15px rgba(0,0,0,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.8); margin: 0 auto;
         }
         .video-banner:hover { border-color: var(--neon-gold); box-shadow: 0 0 25px rgba(255,183,3,0.4); transform: scale(1.01); }
         .video-banner img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
@@ -218,13 +218,22 @@
         <div class="devlog-card">
             <h3 class="devlog-title">⚙️ Devlog: L'Evoluzione dei Motori Automatizzati</h3>
             <p class="devlog-desc">
-                In questo spazio racconto la ricerca e lo sviluppo avanzato dietro i miei core system. Attualmente la mia specializzazione si concentra sulla creazione di <strong>motori di automazione basati su agenti intelligenti</strong>, progettati per azzerare i processi ripetitivi e trasformare il codice grezzo in prodotti finiti pronti per il deployment.
+                In questo spazio racconto la ricerca e lo sviluppo avanzato dietro i miei core system. Dopo mesi di studi matti e disperatissimi giorno e notte, l'obiettivo è diventato realtà: la specializzazione nella creazione di <strong>motori di automazione basati su agenti intelligenti</strong> ha preso vita con il rilascio ufficiale del software.
             </p>
             
             <div class="devlog-highlight">
-                <h4>Progetto Overlord & Androlord</h4>
-                <p>Sistemi avanzati di automazione in cui agenti software specializzati collaborano in autonomia: analizzano il codice sorgente, coordinano gli upgrade, gestiscono la compilazione e creano l'installer finale con un solo comando. Una vera e propria fabbrica software intelligente.</p>
+                <h4>Progetto Overlord & Androlord (Disponibile il Video Ufficiale)</h4>
+                <p>Overlord è la plancia di comando definitiva e fabbrica software sviluppata in C++ nativo (Win32, OpenGL, Dear ImGui). Sottosistemi procedurali, 7 slot dinamici e memoria anti-amnesia per un controllo totale dell'automazione. Guarda il video ufficiale per scoprire la tecnologia in azione!</p>
             </div>
+
+            <!-- Video Ufficiale Incorporato in stile Netlify -->
+            <a href="https://www.youtube.com/watch?v=70Onh3IKip0" target="_blank" class="video-banner" style="margin-top: 1.5rem;">
+                <img src="https://img.youtube.com/vi/70Onh3IKip0/maxresdefault.jpg" alt="Overlord Video Ufficiale">
+                <div class="play-overlay">
+                    <div class="play-icon">▶</div>
+                    <div class="play-text">Guarda il Video Ufficiale su YouTube</div>
+                </div>
+            </a>
         </div>
 
         <h2 class="section-title">In Vetrina</h2>
