@@ -1,0 +1,16 @@
+﻿backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "downloads"
+  label: "Area Download & Programmi"
+  folder: "content/downloads"
+  create: true
+  fields:
+    - {name: "title", label: "Titolo", widget: "string"}
+    - {name: "description", label: "Descrizione", widget: "text"}
+    - {name: "file", label: "File o Link", widget: "string"}
